@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
-// Extrai o nome de cada usuário com `_.map` (drop-in replacement de `_.pluck`,
-// que foi removido no lodash 4).
+// Extrai o nome de cada usuário com `_.map`, o substituto do `_.pluck`
+// removido no lodash 4.
 function names(users) {
   return _.map(users, 'name');
 }
