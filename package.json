@@ -1,12 +1,12 @@
 {
   "name": "ak-remediation-demo",
-  "version": "1.0.0",
+  "version": "1.0.0-SecurityfixAI.2",
   "description": "Projeto de demonstração: dependência vulnerável cuja correção quebra a API",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.21"
   }
 }
