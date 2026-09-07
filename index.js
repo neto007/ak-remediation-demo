@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 // Extrai o nome de cada usuário. `_.pluck` foi removido no lodash 4;
-// o equivalente direto é `_.map` com uma string de caminho como segunda arg.
+// `_.map` é o equivalente recomendado desde o 4.x.
 function names(users) {
   return _.map(users, 'name');
 }
