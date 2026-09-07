@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 // Extrai o nome de cada usuário. `_.pluck` foi removido no lodash 4;
-// `_.map` com iteratee de atalho faz o mesmo papel.
+// o equivalente é `_.map` com o caminho da propriedade.
 function names(users) {
   return _.map(users, 'name');
 }
